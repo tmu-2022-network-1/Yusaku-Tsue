@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>【eye am apoemer】顔面スロット</title>
+    <link rel="stylesheet" href="eye.css">
+<script>
+
+function setImage1(id) {
+ 
+ // ランダムで画像を変える
+ var images =["eye-image/f0.jpg","eye-image/f1.jpg","eye-image/f2.jpg","eye-image/f3.jpg","eye-image/f4.jpg","eye-image/f5.jpg"];
+ var i = parseInt(Math.random() * 5);
+
+ // 画像の変更
+ document.getElementById(id).src = images[i];
+}
+
+function setImage2(id) {
+ 
+ // ランダムで画像を変える
+ var images =["eye-image/f6.jpg","eye-image/f7.jpg","eye-image/f8.jpg","eye-image/f9.jpg","eye-image/f10.jpg","eye-image/f11.jpg"];
+ var i = parseInt(Math.random() * 5);
+
+ // 画像の変更
+ document.getElementById(id).src = images[i];
+}
+
+function setImage3(id) {
+ 
+ // ランダムで画像を変える
+ var images =["eye-image/f12.jpg","eye-image/f13.jpg","eye-image/f14.jpg","eye-image/f15.jpg","eye-image/f16.jpg","eye-image/f17.jpg"];
+ var i = parseInt(Math.random() * 5);
+
+ // 画像の変更
+ document.getElementById(id).src = images[i];
+}
+
+</script>
+</head>
+<body>
+    <p>
+        <img src="eye-image/f0.jpg" id="img1">
+        <img src="eye-image/f6.jpg" id="img2">
+        <img src="eye-image/f12.jpg" id="img3">
+        <br>
+        <input type="button" value="目" onClick="setImage1('img1')">
+        <input type="button" value="鼻＆口" onClick="setImage2('img2')">
+        <input type="button" value="服" onClick="setImage3('img3')">
+    </p>
+</body>
+</html>
