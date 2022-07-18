@@ -1,4 +1,99 @@
-.bg{
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin:0;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    height: 834px;;
+  }
+
+  .area {
+    scroll-snap-align: start;
+    height: 834px;
+  }
+
+.bg img{
     position: fixed;
     width: 100%;
+    z-index: 2;
+    order: 1;
+}
+
+.box img{
+    position: relative;
+    width:100%;
+    z-index: 2;
+    order: 2;
+}
+
+.bg1 img{
+    width: 100%;
+    z-index: 1;
+}
+
+.bg2 img{
+    width: 100%;
+    z-index: 1;
+}
+
+.bg3 img{
+    width: 100%;
+    z-index: 1;
+}
+
+.bg4 img{
+    width: 100%;
+    z-index: 1;
+}
+
+.bg5 img{
+    width: 100%;
+    z-index: 1;
+}
+
+.bg6 img{
+    width: 100%;
+    z-index: 1;
+}
+
+.bg7 img{
+    width: 100%;
+    z-index: 1;
+}
+
+.bg8 img{
+    width: 100%;
+    z-index: 1;
+}
+
+.bg9 img{
+    width: 100%;
+    z-index: 1;
+}
+
+.bg10 img{
+    width: 100%;
+    z-index: 1;
+}
+
+.bg11 img{
+    width: 100%;
+    z-index: 1;
+}
+
+.bg12 img{
+    width: 100%;
+    z-index: 1;
+}
+
+.bg13 img{
+    width: 100%;
+    z-index: 1;
+}
+
+.bg14 img{
+    width: 100%;
+    z-index: 1;
 }
