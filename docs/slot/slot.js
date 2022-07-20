@@ -7,7 +7,7 @@ $(function(){
       slidesToShow: 1, //表示するスライドの数
       swipe: false, // 操作による切り替えはさせない
       arrows: false, //矢印非表示
-      pauseOnFocus: true, //スライダーをフォーカスした時にスライドを停止させるか
+      pauseOnFocus: false, //スライダーをフォーカスした時にスライドを停止させるか
       pauseOnHover: false, //スライダーにマウスホバーした時にスライドを停止させるか
       responsive: [
         {
@@ -29,7 +29,7 @@ $(function(){
       slidesToShow: 1, //表示するスライドの数
       swipe: false, // 操作による切り替えはさせない
       arrows: false, //矢印非表示
-      pauseOnFocus: true, //スライダーをフォーカスした時にスライドを停止させるか
+      pauseOnFocus: false, //スライダーをフォーカスした時にスライドを停止させるか
       pauseOnHover: false, //スライダーにマウスホバーした時にスライドを停止させるか
       responsive: [
         {
@@ -51,7 +51,7 @@ $(function(){
       slidesToShow: 1, //表示するスライドの数
       swipe: false, // 操作による切り替えはさせない
       arrows: false, //矢印非表示
-      pauseOnFocus: true, //スライダーをフォーカスした時にスライドを停止させるか
+      pauseOnFocus: false, //スライダーをフォーカスした時にスライドを停止させるか
       pauseOnHover: false, //スライダーにマウスホバーした時にスライドを停止させるか
       responsive: [
         {
