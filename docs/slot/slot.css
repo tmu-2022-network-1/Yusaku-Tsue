@@ -9,6 +9,12 @@
   width:100%;
 }
 
+.setsumei p{
+  text-align: center;
+  color: #e0ca00;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 img {
     width: 100%;
   }

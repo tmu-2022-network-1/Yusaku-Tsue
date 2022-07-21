@@ -37,6 +37,10 @@ html {
   position: fixed;
 }
 
+.menu img:hover{
+  opacity: 0.5;
+}
+
 .bg img{
   position: fixed;
   width: 100%;
